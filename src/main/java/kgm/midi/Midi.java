@@ -55,7 +55,7 @@ public class Midi {
             soundBank = synthesizer.getDefaultSoundbank();
             if (soundBank == null) {
                 try {
-                    soundBank = MidiSystem.getSoundbank(getClass().getResource("bumpbump/lib/keyboard/midi/soundbank-deluxe.gm"));
+                    soundBank = MidiSystem.getSoundbank(getClass().getResource("kgm/midi/soundbank-deluxe.gm"));
                 }catch (IOException | InvalidMidiDataException ex) {
                     System.err.println("Error(s) "+ex.getMessage());
                 }
