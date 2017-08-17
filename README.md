@@ -1,2 +1,2 @@
 # KGM-Swing
-A smart keyborad for General Midi in swing.
+A smart keyboard for General Midi in swing.
